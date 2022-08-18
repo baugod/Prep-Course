@@ -114,7 +114,7 @@ function esImpar(num) {
   // Tu código:
  if (num % 2 === 1); 
  {return true;}
-  else {return false;} 
+ {return false;} 
 }
 
 function elevarAlCuadrado(num) {
@@ -229,9 +229,9 @@ function esVocal(letra){
     return "dato incorrecto"
   }
   if(letra === "a" | letra === "e" | letra === "i" | letra === "o" | letra === "u");{
-    retutn "es vocal"
+    return "es vocal"
   }
-  else { return "dato incorrecto"}
+  { return "dato incorrecto"}
 }
 
 
