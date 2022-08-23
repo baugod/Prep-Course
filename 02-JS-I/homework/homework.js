@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "bautista";
+const nuevaString = "bauti";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 20;
@@ -71,10 +71,10 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length === str2.length); {
+  if (str1.length === str2.length) {
     return true}
-    {return false}
-}
+    else {return false}
+  }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -114,9 +114,11 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
- if (num % 2 === 1); 
- { return true;}
-  {return false} 
+  if (num % 2 === 1) {
+    return true }
+   else {
+    return false}
+  
 }
 
 function elevarAlCuadrado(num) {
@@ -229,11 +231,10 @@ function esVocal(letra){
   if (letra.length > 1) {
     return "Dato incorrecto"
   }
-  if(letra === "a" | letra === "e" | letra === "i" | letra === "o" | letra === "u");{
-    return "Es vocal"
-  }
-  { 
-    return "Dato incorrecto"; }
+  if(letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u")
+  { return "Es vocal"; } 
+  else { 
+    return "Dato incorrecto"}
 }
 
 
